@@ -1,0 +1,29 @@
+#offers .wrapper-offers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#offers .wrapper-offer {
+    width: 300px;
+    max-width: 300px;
+}
+
+#offers .block-offer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #f3f3f3;
+    padding: 10px;
+}
+
+#offers .offer-price {
+    margin-bottom: 30px;
+}
+/* 
+#offers .block-offer p:last-child {
+  margin-top: 40px;
+} */
+
+#offers .block-offer-button {
+    margin-bottom: 20px;
+}

@@ -26,7 +26,13 @@
                    role="progressbar"></div>
           </div>
       </div>
-      
+      <!-- ./Preloader -->
+      <div id="logo-block">
+          <a href="/">
+              <img src="./img/Tanya Garbaruk.jpg" alt="" width="50%;" />
+          </a>
+      </div>
+
       <!-- header -->
       <header>
           <nav>
@@ -155,15 +161,50 @@
                           <li>
                               <a href="#"><i class="ion-social-instagram"></i></a>
                           </li>
-                         
+
                       </ul>
                       <div class="clearfix"></div>
                       <div class="h-50"></div>
                   </div>
-                  
+
+                  <div class="col-md-8">
+                      <form class="contact-bg"
+                            id="contact-form"
+                            name="contact"
+                            method="post"
+                            novalidate="novalidate">
+                          <input id="offerType" name="offerType" type="hidden" value="" />
+                          <input type="text"
+                                 name="name"
+                                 class="form-control"
+                                 placeholder="Ім'я" />
+                          <input type="email"
+                                 name="email"
+                                 class="form-control"
+                                 placeholder="E-mail *" />
+                          <input type="text"
+                                 name="phone"
+                                 class="form-control"
+                                 placeholder="Номер телефону" />
+                          <textarea name="message"
+                                    class="form-control"
+                                    placeholder="Повідомлення"
+                                    style="height: 120px"></textarea>
+                          <button id="submit"
+                                  type="submit"
+                                  name="submit"
+                                  class="btn btn-glance">
+                              Відправити
+                          </button>
+                      </form>
+                  </div>
+                  <!-- ./contact -->
               </div>
           </div>
       </div>
+
+
+
       <!-- footer -->
       <footer>
           <div class="container">
@@ -188,6 +229,6 @@
           </div>
       </footer>
       <!-- footer -->
-     
+
   </body>
 </html>
